@@ -14,11 +14,9 @@ local tbl =
 						{
 							actionID = 24298,
 							atomicPriority = true,
-							fallthrough = true,
-							gVar = "ACR_RikuSGE3_Healbar_Zoe",
+							gVar = "ACR_RikuSGE3_CD",
 							ignoreWeaveRules = true,
-							uuid = "6aac6449-17e5-223d-81a7-c9c808139a33",
-							variableTogglesType = 3,
+							uuid = "85786b2d-8b73-85c5-9d7f-dca1fb98abab",
 							version = 2.1,
 						},
 					},
@@ -26,12 +24,11 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 24310,
+							actionID = 24302,
 							atomicPriority = true,
-							gVar = "ACR_RikuSGE3_Healbar_Pneuma",
+							gVar = "ACR_RikuSGE3_CD",
 							ignoreWeaveRules = true,
-							uuid = "3417b7ee-104c-443b-bb41-2cdc38c77308",
-							variableTogglesType = 3,
+							uuid = "43beb41c-a547-9f14-b8c7-c51e4c4ddf43",
 							version = 2.1,
 						},
 					},
@@ -40,16 +37,47 @@ local tbl =
 				{
 				},
 				mechanicTime = 13.3,
-				name = "Kerachole + Holos",
-				randomOffset = 0.5,
+				name = "Kera + Physis",
 				timelineIndex = 2,
-				timerOffset = -1,
-				uuid = "e5343ba3-44c2-a8bf-aa8e-8d22ee017414",
+				timerOffset = -4,
+				uuid = "2b72ca5e-6d12-e2d3-b144-3fc0fb4ecd38",
 				version = 2,
 			},
 		},
 	},
-	[3] = 
+	[16] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
+							uuid = "8c6e5d0b-a4bb-48c7-8397-1c19a88b0531",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 72.7,
+				name = "Kera",
+				timelineIndex = 16,
+				timerOffset = 1,
+				uuid = "a48e7baa-9cd7-3185-a5c0-560be0176df6",
+				version = 2,
+			},
+		},
+	},
+	[17] = 
 	{
 		
 		{
@@ -63,7 +91,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Physis",
-							uuid = "9f882d33-22b6-ed8e-a387-ca994a5edac3",
+							uuid = "65bb838f-054a-880c-9b6e-b055d34eb464",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -72,78 +100,10 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 14.1,
+				mechanicTime = 78.7,
 				name = "Physis",
-				randomOffset = 0.30000001192093,
-				timelineIndex = 3,
-				timerOffset = -0.30000001192093,
-				uuid = "bdd2ec44-c7c3-ea9d-b58d-611ec914c076",
-				version = 2,
-			},
-		},
-	},
-	[7] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							targetType = "Main Tank",
-							uuid = "1a82c887-7be6-2110-bf1a-e317cf84d8fe",
-							variableIsHover = true,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 32.4,
-				name = "Haima",
-				randomOffset = -0.5,
-				timelineIndex = 7,
-				timerOffset = 4,
-				uuid = "bf77792a-681b-fea5-9b29-991db1e27818",
-				version = 2,
-			},
-		},
-	},
-	[20] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Panhaima",
-							uuid = "c84ce524-9123-2b5a-bf41-6eb620bd31f7",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 86.7,
-				name = "Panhaima",
-				randomOffset = 0.5,
-				timelineIndex = 20,
-				timerOffset = -3,
-				uuid = "f85f6500-6cc4-80a5-8b8b-cdee3f80b91b",
+				timelineIndex = 17,
+				uuid = "52eb76f3-98fa-d3bf-a332-cfec0968eb5e",
 				version = 2,
 			},
 		},
@@ -160,10 +120,23 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "eadf8aa4-7c29-e899-96e4-efe868a73879",
-							variableTogglesType = 3,
+							actionID = 24310,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "3b7ef4a2-585b-01ff-bc5c-c4d6b121f47d",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 24311,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "8f84166d-985c-f221-bb09-fbd71939ba6d",
 							version = 2.1,
 						},
 					},
@@ -172,9 +145,74 @@ local tbl =
 				{
 				},
 				mechanicTime = 99.7,
-				name = "Kerachole",
+				name = "Holos + Panhaima",
 				timelineIndex = 23,
-				uuid = "7c027d10-393c-1953-b0db-b820a559923b",
+				timerOffset = -3,
+				uuid = "a78fc188-5c06-1c10-9ee6-adee4f39aff6",
+				version = 2,
+			},
+		},
+	},
+	[27] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
+							uuid = "b6f1ec4f-b464-77f6-9cbf-5f391fbbc309",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 104.5,
+				name = "kera",
+				timelineIndex = 27,
+				timerOffset = 4,
+				uuid = "6f3abeb0-6a16-f58b-8a0b-a0e9ff12c6f1",
+				version = 2,
+			},
+		},
+	},
+	[30] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Zoe",
+							uuid = "c7e310e1-e910-bb9b-83cf-acd21a91e043",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 111.1,
+				name = "zoe",
+				timelineIndex = 30,
+				timerOffset = 1,
+				uuid = "32bcd568-a539-df9a-bbff-03822ab5cde1",
 				version = 2,
 			},
 		},
@@ -192,36 +230,8 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"5bbb1bdc-8839-0e32-b2c3-1f04ce93ff7c",
-									true,
-								},
-							},
-							fallthrough = true,
-							gVar = "ACR_RikuSGE3_Healbar_Zoe",
-							uuid = "0ac01612-1040-cbd7-95bc-ff6375ea299a",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a704d13c-7bdf-79a5-a5c1-65cc5e9155ef",
-									true,
-								},
-							},
 							gVar = "ACR_RikuSGE3_Healbar_Pneuma",
-							uuid = "d74f685e-bc82-3c36-af96-e3a76f7bfdfa",
+							uuid = "1473ab54-b557-aa70-8ef8-db44135c6986",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -229,42 +239,17 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							actionID = 24300,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "5bbb1bdc-8839-0e32-b2c3-1f04ce93ff7c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 24318,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "a704d13c-7bdf-79a5-a5c1-65cc5e9155ef",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 121.8,
-				name = "Zoe + Pneuma",
-				randomOffset = 0.5,
+				name = "Pneuma",
 				timelineIndex = 31,
-				timerOffset = 1,
-				uuid = "c544bd62-23a7-f032-80b9-935a38f1a1d5",
+				timerOffset = -0.5,
+				uuid = "0144c85f-2bce-9792-a528-1ee1f0ec7402",
 				version = 2,
 			},
 		},
 	},
-	[33] = 
+	[35] = 
 	{
 		
 		{
@@ -279,7 +264,7 @@ local tbl =
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Haima",
 							targetType = "Main Tank",
-							uuid = "1a82c887-7be6-2110-bf1a-e317cf84d8fe",
+							uuid = "5ed3b02f-7b30-4026-a5b2-f5f3cb2a879d",
 							variableIsHover = true,
 							variableTogglesType = 3,
 							version = 2.1,
@@ -289,17 +274,61 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 135.3,
+				mechanicTime = 166,
 				name = "Haima",
-				randomOffset = 0.5,
-				timelineIndex = 33,
-				timerOffset = -6,
-				uuid = "fa65b806-a3c7-1465-a7f2-bd11fc78fc99",
+				timelineIndex = 35,
+				uuid = "546b11d9-51cc-54b0-b766-3c38f8ab76f6",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Soteria",
+							uuid = "9c9f6767-43ac-3033-8dcd-7a1881522e56",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 166,
+				name = "Soteria",
+				timelineIndex = 35,
+				timerOffset = 2,
+				uuid = "b94f11ef-01cd-0810-b09d-c997f07b41c1",
 				version = 2,
 			},
 		},
 	},
 	[37] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Force Autoface",
+				uuid = "ef2859a5-2ae6-fa07-a2aa-5f24c906a828",
+				version = 2,
+			},
+			inheritedObjectUUID = "2ddc678f-8186-5079-82fe-a6d2ba343f00",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -0.34999999403954,
+			},
+		},
+	},
+	[38] = 
 	{
 		
 		{
@@ -313,7 +342,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "e63439cc-b66d-7b82-ae88-b92b41562463",
+							uuid = "c93a06f8-9d37-2561-a862-94627a8ffa9e",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -322,45 +351,10 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 178.3,
-				name = "Kerachole",
-				timelineIndex = 37,
-				uuid = "1826dfac-b4d1-7b9a-98e8-76e087fdea23",
-				version = 2,
-			},
-		},
-	},
-	[53] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Haima",
-							targetType = "Main Tank",
-							uuid = "1a82c887-7be6-2110-bf1a-e317cf84d8fe",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 223.2,
-				name = "Haima",
-				randomOffset = -0.5,
-				timelineIndex = 53,
-				timerOffset = 2,
-				uuid = "a4a59e26-1941-a7ea-81cf-df0fbb734f38",
+				mechanicTime = 179.2,
+				name = "Kera",
+				timelineIndex = 38,
+				uuid = "26ea38ae-eda2-6e02-8c14-959a35757c2a",
 				version = 2,
 			},
 		},
@@ -379,18 +373,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "fb994e4d-f784-ce36-8d86-49811b4f971d",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Panhaima",
-							uuid = "9f22a0dc-e627-ffc5-af06-1a595ccd94dd",
+							uuid = "bd4925d9-e98a-a51c-96fb-b97b3f626c92",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -400,16 +383,15 @@ local tbl =
 				{
 				},
 				mechanicTime = 235.2,
-				name = "Kerachole + Panhaima",
-				randomOffset = 0.5,
+				name = "Kera",
 				timelineIndex = 55,
 				timerOffset = -5,
-				uuid = "6e2226c4-f64d-4992-9bbb-9bbdd48e1232",
+				uuid = "7211a8a3-84df-023e-b73a-44bc6ec45af2",
 				version = 2,
 			},
 		},
 	},
-	[67] = 
+	[56] = 
 	{
 		
 		{
@@ -421,13 +403,10 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 24298,
-							atomicPriority = true,
-							fallthrough = true,
-							gVar = "ACR_RikuSGE3_Healbar_Zoe",
-							ignoreWeaveRules = true,
-							uuid = "6aac6449-17e5-223d-81a7-c9c808139a33",
-							variableTogglesType = 3,
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Hotbar_IcarusTarget",
+							uuid = "920d8984-4f8b-7b69-bd66-be487b24a955",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -435,11 +414,65 @@ local tbl =
 					{
 						data = 
 						{
+							actionID = 37035,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "feab7332-3394-298c-ad01-b68c30a6364f",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 236.2,
+				name = "Dash",
+				timelineIndex = 56,
+				uuid = "14ccfca2-1ea1-bbb6-b881-72eb123636f9",
+				version = 2,
+			},
+		},
+	},
+	[66] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
 							actionID = 24310,
 							atomicPriority = true,
-							gVar = "ACR_RikuSGE3_Healbar_Pneuma",
+							gVar = "ACR_RikuSGE3_CD",
 							ignoreWeaveRules = true,
-							uuid = "3417b7ee-104c-443b-bb41-2cdc38c77308",
+							uuid = "4ed19cdd-15f7-a3b1-8f5b-6bac2c568489",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 24300,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "728f134a-7339-81a4-a1ae-222ede2c08e9",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_EukrasianPrognosis",
+							uuid = "40a500a8-5b64-237a-81a0-c364563d932c",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -448,12 +481,75 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 284.5,
-				name = "Kerachole + Holos",
-				randomOffset = 0.5,
-				timelineIndex = 67,
-				timerOffset = -2,
-				uuid = "5c8d506f-62d1-31e7-9fb5-af1a081051ac",
+				mechanicTime = 283.5,
+				name = "Holos + Shield",
+				timelineIndex = 66,
+				timerOffset = -4,
+				uuid = "5739f711-0158-6aec-aec9-99bcf94ea05a",
+				version = 2,
+			},
+		},
+	},
+	[68] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Physis",
+							uuid = "3d4362d4-76f3-115d-a265-5655063f47de",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 285.3,
+				name = "Physis",
+				timelineIndex = 68,
+				timerOffset = -3,
+				uuid = "17ebb90d-859c-cd4e-a83f-279e7e4daa43",
+				version = 2,
+			},
+		},
+	},
+	[72] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Soteria",
+							uuid = "0b77bf3a-0e93-a1e3-bdae-1d49fcc55def",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 298.5,
+				name = "Soteria",
+				timelineIndex = 72,
+				timerOffset = 2,
+				uuid = "7899a5a4-b9d9-994a-8668-4eeb352bc89d",
 				version = 2,
 			},
 		},
@@ -472,7 +568,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "29bf2aa8-781f-dcb4-acbc-731f6d98b90c",
+							uuid = "19696f80-509c-e075-8468-d447165e092e",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -482,16 +578,72 @@ local tbl =
 				{
 				},
 				mechanicTime = 324.4,
-				name = "Kerachole",
-				randomOffset = 0.5,
+				name = "Kera",
 				timelineIndex = 78,
+				timerOffset = -8,
+				uuid = "1bbfccf7-59bb-4c85-8960-46f67583ee29",
+				version = 2,
+			},
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 24311,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "b8a2d6f0-a946-8e48-9272-b5580923506f",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 24302,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "33754869-c29e-d41c-a205-a0852c0aad8c",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 24298,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "2717cdc7-709a-70a7-912f-47abfd585e40",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 348.7,
+				name = "Panhaima + Physis + Kera",
+				timelineIndex = 81,
 				timerOffset = -2,
-				uuid = "66151ead-2953-e374-ab45-caf0049b2eb5",
+				uuid = "33d80740-0594-0f11-8a37-8b9ba3f680cb",
 				version = 2,
 			},
 		},
 	},
-	[82] = 
+	[89] = 
 	{
 		
 		{
@@ -503,10 +655,35 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Physis",
-							uuid = "ef81339a-e36a-6bb7-ae57-01efdb466470",
-							variableTogglesType = 3,
+							actionID = 24311,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "b8a2d6f0-a946-8e48-9272-b5580923506f",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 24302,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "33754869-c29e-d41c-a205-a0852c0aad8c",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 24298,
+							atomicPriority = true,
+							gVar = "ACR_RikuSGE3_CD",
+							ignoreWeaveRules = true,
+							uuid = "2717cdc7-709a-70a7-912f-47abfd585e40",
 							version = 2.1,
 						},
 					},
@@ -514,17 +691,16 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 349.5,
-				name = "Physis",
-				randomOffset = 0.5,
-				timelineIndex = 82,
+				mechanicTime = 413,
+				name = "Panhaima + Physis + Kera",
+				timelineIndex = 89,
 				timerOffset = -2,
-				uuid = "59890c22-428f-fb01-bdfa-64654a05a923",
+				uuid = "86750c17-e57c-5ba7-a52a-939bd90e600f",
 				version = 2,
 			},
 		},
 	},
-	[88] = 
+	[99] = 
 	{
 		
 		{
@@ -538,7 +714,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "ece198df-54cf-e6c5-ac1f-e0eb1011e3e7",
+							uuid = "19696f80-509c-e075-8468-d447165e092e",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -547,342 +723,16 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 369.7,
-				name = "Kerachole",
-				randomOffset = 0.5,
-				timelineIndex = 88,
-				timerOffset = -3,
-				uuid = "a8350657-1bc4-0f25-995d-7c475c9d56ed",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"bb60d363-6798-b96c-bf92-c9e009101d09",
-									true,
-								},
-							},
-							fallthrough = true,
-							gVar = "ACR_RikuSGE3_Healbar_Zoe",
-							uuid = "6aac6449-17e5-223d-81a7-c9c808139a33",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a1892d88-08b9-409e-85ad-737af4705f19",
-									true,
-								},
-							},
-							gVar = "ACR_RikuSGE3_Healbar_Pneuma",
-							uuid = "3417b7ee-104c-443b-bb41-2cdc38c77308",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 24300,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "bb60d363-6798-b96c-bf92-c9e009101d09",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 24318,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "a1892d88-08b9-409e-85ad-737af4705f19",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 369.7,
-				name = "Zoe + Pneuma",
-				randomOffset = 0.5,
-				timelineIndex = 88,
-				timerOffset = 3,
-				uuid = "f96c0d0e-fc83-1b2a-8cb1-b0e6a46427e2",
+				mechanicTime = 443.9,
+				name = "Kera",
+				timelineIndex = 99,
+				timerOffset = -8,
+				uuid = "b693c2a6-b232-abf4-8735-fc0e0577ed18",
 				version = 2,
 			},
 		},
 	},
-	[103] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "ece198df-54cf-e6c5-ac1f-e0eb1011e3e7",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 500,
-				name = "Kerachole",
-				randomOffset = 0.5,
-				timelineIndex = 103,
-				timerOffset = -3,
-				uuid = "b036264b-f45f-ec03-9e57-135a2f27cb88",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"bb60d363-6798-b96c-bf92-c9e009101d09",
-									true,
-								},
-							},
-							fallthrough = true,
-							gVar = "ACR_RikuSGE3_Healbar_Zoe",
-							uuid = "6aac6449-17e5-223d-81a7-c9c808139a33",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a1892d88-08b9-409e-85ad-737af4705f19",
-									true,
-								},
-							},
-							gVar = "ACR_RikuSGE3_Healbar_Pneuma",
-							uuid = "3417b7ee-104c-443b-bb41-2cdc38c77308",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 24300,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "bb60d363-6798-b96c-bf92-c9e009101d09",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 24318,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "a1892d88-08b9-409e-85ad-737af4705f19",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 500,
-				name = "Zoe + Pneuma",
-				randomOffset = 0.5,
-				timelineIndex = 103,
-				timerOffset = 3,
-				uuid = "7aeb481f-b685-ccb1-82ca-ddb6b1cb24d2",
-				version = 2,
-			},
-		},
-	},
-	[111] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "d47babe4-7c4c-87d8-bd5b-c35d498827ae",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 557.6,
-				name = "Kerachole",
-				randomOffset = 0.5,
-				timelineIndex = 111,
-				timerOffset = -2,
-				uuid = "25819e43-fe3d-e141-9ab2-d961aea91ba3",
-				version = 2,
-			},
-		},
-	},
-	[115] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Holos",
-							uuid = "0c558a31-1733-2b33-a26c-dac412bb47b8",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 558.9,
-				name = "Holos",
-				randomOffset = 0.5,
-				timelineIndex = 115,
-				timerOffset = 9,
-				uuid = "2c5b7710-347e-2fbb-9e55-4dc9744eda73",
-				version = 2,
-			},
-		},
-	},
-	[121] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Physis",
-							uuid = "05b7e67c-87d3-633d-86f3-407307c064f3",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 572,
-				name = "Physis",
-				timelineIndex = 121,
-				uuid = "dfca7de9-2a3d-209b-adae-42d21850f67d",
-				version = 2,
-			},
-		},
-	},
-	[132] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "44f49cf0-67d1-cbbf-b442-5ac4a1fdf280",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 592.2,
-				name = "Kerachole",
-				timelineIndex = 132,
-				uuid = "512352c1-8064-437a-9f8c-5a66964bf14b",
-				version = 2,
-			},
-		},
-	},
-	[139] = 
+	[107] = 
 	{
 		
 		{
@@ -897,7 +747,7 @@ local tbl =
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Haima",
 							targetType = "Main Tank",
-							uuid = "1a82c887-7be6-2110-bf1a-e317cf84d8fe",
+							uuid = "6b2ab91a-46e6-37b6-9852-826563b357c8",
 							variableIsHover = true,
 							variableTogglesType = 3,
 							version = 2.1,
@@ -907,13 +757,189 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 606,
+				mechanicTime = 545.4,
 				name = "Haima",
-				randomOffset = -0.5,
-				timelineIndex = 139,
+				timelineIndex = 107,
 				timerOffset = 2,
-				uuid = "57a55a08-64bd-07af-aa4e-a8b831595930",
+				uuid = "bd7b5c09-6cd0-ee89-8425-bb44de6a3bc9",
 				version = 2,
+			},
+		},
+	},
+	[113] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Holos",
+							uuid = "19eaba9f-2e24-ec6c-808f-eb51394481d1",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 558.7,
+				name = "Holos",
+				timelineIndex = 113,
+				timerOffset = -2.5,
+				uuid = "675b4440-f6f2-5c4f-a285-2a8d5136beb6",
+				version = 2,
+			},
+		},
+	},
+	[114] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Physis",
+							uuid = "d7bafa46-fb8d-77e8-adaa-a8a4f10f8b95",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 558.9,
+				name = "Physis",
+				timelineIndex = 114,
+				uuid = "26cd2565-00a5-c835-b5a2-bf0333ca4e5e",
+				version = 2,
+			},
+		},
+	},
+	[116] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
+							uuid = "6e672dfe-55d4-46e2-81f8-ab6fb4521d2c",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 564,
+				name = "Kera",
+				timelineIndex = 116,
+				uuid = "fe0cfd56-c6f7-a3f9-834f-11c4ed4b80f6",
+				version = 2,
+			},
+		},
+	},
+	[118] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Autoface Solver",
+				uuid = "f5636d79-e514-0f30-b574-ee05f1edf86b",
+				version = 2,
+			},
+			inheritedObjectUUID = "96718035-b09a-d91f-ad0d-b09747e3f6b6",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
+			},
+		},
+	},
+	[120] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Philosophia",
+							uuid = "7571969a-206d-9f21-8229-3dcce98dcc85",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 571.1,
+				name = "Philo",
+				timelineIndex = 120,
+				timerOffset = -2,
+				uuid = "573607d8-b793-c98c-b456-5c7013530f3a",
+				version = 2,
+			},
+		},
+	},
+	[125] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Autoface Solver",
+				uuid = "30ba8cb0-3d45-5c17-946d-8b77c2dd23e1",
+				version = 2,
+			},
+			inheritedObjectUUID = "0c9f169d-769a-d04c-9544-7b642e3e2be3",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
+			},
+		},
+	},
+	[133] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Autoface Solver",
+				uuid = "101c5c34-2b39-dc9e-9280-f35cfcb724f5",
+				version = 2,
+			},
+			inheritedObjectUUID = "14cac2a0-ede1-147a-8a93-f7c049cdd380",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
 			},
 		},
 	},
@@ -931,18 +957,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Kerachole",
-							uuid = "fb994e4d-f784-ce36-8d86-49811b4f971d",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSGE3_Healbar_Panhaima",
-							uuid = "9f22a0dc-e627-ffc5-af06-1a595ccd94dd",
+							uuid = "1e5d6406-c2c1-5a0d-bd96-d426aed86600",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -952,16 +967,15 @@ local tbl =
 				{
 				},
 				mechanicTime = 619.1,
-				name = "Kerachole + Panhaima",
-				randomOffset = 0.5,
+				name = "Kera",
 				timelineIndex = 141,
-				timerOffset = -4,
-				uuid = "1c487c15-246d-92ef-9e70-ce0920b44ef9",
+				timerOffset = -5,
+				uuid = "bf6ecf51-a5cc-1ed9-b678-20afce915a69",
 				version = 2,
 			},
 		},
 	},
-	[146] = 
+	[142] = 
 	{
 		
 		{
@@ -975,7 +989,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_RikuSGE3_Healbar_Physis",
-							uuid = "77b86840-f55c-38c3-90d4-50cd5821234c",
+							uuid = "5457819c-6e12-e66f-834d-30693d993964",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -984,10 +998,43 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 644.1,
+				mechanicTime = 620.1,
 				name = "Physis",
-				timelineIndex = 146,
-				uuid = "6789147e-ccd3-78a1-868c-4fae54eab4ed",
+				timelineIndex = 142,
+				timerOffset = -2.5,
+				uuid = "1c636cf2-57ce-cf0a-9226-a206b2db7548",
+				version = 2,
+			},
+		},
+	},
+	[145] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSGE3_Healbar_Panhaima",
+							uuid = "510a8b23-7a40-c47a-9dcb-98016bbd9000",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 643.3,
+				name = "Panhaima",
+				timelineIndex = 145,
+				timerOffset = -3,
+				uuid = "693db915-6403-4e00-880d-e003fb34876e",
 				version = 2,
 			},
 		},
